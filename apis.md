@@ -4,7 +4,7 @@ description: This is a repository of live APIs, self-contained as a Github repos
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/live.png
 created: "2018-02-24"
-modified: "2018-06-20"
+modified: "2018-06-25"
 url: http://live.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -22,10 +22,10 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/live/master/_listings/aws-kinesis-firehose/apis.yaml
 - name: YouTube
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/live/master/_listings/youtube/apis.yaml
-- name: Lykke
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/live/master/_listings/lykke/apis.yaml
 - name: Dyn
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/live/master/_listings/dyn/apis.yaml
+- name: Lykke
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/live/master/_listings/lykke/apis.yaml
 - name: Postmark
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/live/master/_listings/postmark/apis.yaml
 - name: 3scale
