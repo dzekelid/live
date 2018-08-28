@@ -1,0 +1,109 @@
+{
+	"name": "Streadata.io API Gallery - Live",
+	"description": "This is a repository of live APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/live.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://live.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Zencoder",
+			"x-api-slug": "zencoder",
+			"description": "Audio and video encoding/transcoding software as a service. Convert videos online into web and mobile formats using our cloud encoding API.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg",
+			"humanURL": "http://zencoder.com/",
+			"baseURL": "https://app.zencoder.com//api/v2",
+			"tags": "Live",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/live/master/_listings/zencoder/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Spreaker",
+			"x-api-slug": "spreaker",
+			"description": "Discover and listen to your favorite podcasts for free or sign up to create your own!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg",
+			"humanURL": "http://spreaker.com",
+			"baseURL": "http://api.spreaker.com//",
+			"tags": "Live",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/live/master/_listings/spreaker/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Instructure",
+			"x-api-slug": "instructure",
+			"description": "Instructure makes software that makes smarter people. Products include Canvas LMS, Bridge and Canvas Network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg",
+			"humanURL": "http://instructure.com",
+			"baseURL": "https://canvas.instructure.com//api/v1",
+			"tags": "Live",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/live/master/_listings/instructure/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Live",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/live/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Live",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/live/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Live",
+	"include": [
+		{
+			"name": "Zencoder",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/live/master/_listings/zencoder/apis.yaml"
+		},
+		{
+			"name": "Spreaker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/live/master/_listings/spreaker/apis.yaml"
+		},
+		{
+			"name": "Instructure",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/live/master/_listings/instructure/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/live/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/live/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}

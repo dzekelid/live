@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Spreaker
 x-complete: 1
@@ -28,6 +27,7 @@ paths:
         200:
           description: OK
       tags:
+      - Podcasts
       - Live
       - Episodes
   /lives/top:
@@ -44,6 +44,7 @@ paths:
         200:
           description: OK
       tags:
+      - Podcasts
       - Top
       - Live
       - Episodes
@@ -61,7 +62,7 @@ paths:
         200:
           description: OK
       tags:
+      - Podcasts
       - Favorite
       - Live
       - Episodes
----

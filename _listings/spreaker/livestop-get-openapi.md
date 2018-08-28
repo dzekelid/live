@@ -29,6 +29,7 @@ paths:
         200:
           description: OK
       tags:
+      - Podcasts
       - Live
       - Episodes
   /lives/top:
@@ -45,6 +46,7 @@ paths:
         200:
           description: OK
       tags:
+      - Podcasts
       - Top
       - Live
       - Episodes

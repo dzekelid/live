@@ -7,60 +7,55 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreak
 x-kinRank: "8"
 x-alexaRank: "12286"
 tags: Live
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/live/master/_listings/spreaker/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Spreaker API Get Live Episodes
-  x-api-slug: spreaker-api
+- name: Spreaker API - Get Live Episodes
+  x-api-slug: episodeslive-get
   description: Retrieves all live episodes at the moment of the request
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
   humanURL: http://spreaker.com
-  baseURL: http://api.spreaker.com////episodes/live
-  tags: Live,Episodes
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/live/master/_listings/spreaker/episodeslive-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/live/master/_listings/spreaker/episodeslive-get-openapi.md
-- name: Spreaker API Get Top Live Episodes
-  x-api-slug: spreaker-api
+- name: Spreaker API - Get Top Live Episodes
+  x-api-slug: livestop-get
   description: Retrieves live episodes sorted by rank
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
   humanURL: http://spreaker.com
-  baseURL: http://api.spreaker.com////lives/top
-  tags: Top,Live,Episodes
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/live/master/_listings/spreaker/livestop-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/live/master/_listings/spreaker/livestop-get-openapi.md
-- name: Spreaker API Get Favorite Live Episodes
-  x-api-slug: spreaker-api
+- name: Spreaker API - Get Favorite Live Episodes
+  x-api-slug: useruser-idlivesfan-get
   description: ""
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
   humanURL: http://spreaker.com
-  baseURL: http://api.spreaker.com////user/{user_id}/lives/fan
-  tags: Favorite,Live,Episodes
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/live/master/_listings/spreaker/useruser-idlivesfan-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/live/master/_listings/spreaker/useruser-idlivesfan-get-openapi.md
-- name: Spreaker API
-  x-api-slug: spreaker-api
-  description: Spreaker platform enables you to host and listen thousands of radio
-    shows. Spreaker provides a REST web service that enables developers to read and
-    write data to Spreaker.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
-  humanURL: http://spreaker.com
-  baseURL: http://api.spreaker.com//
-  tags: Live
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/live/master/_listings/spreaker/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://spotify.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://spreaker.stack.network
 - type: x-base
   url: http://api.spreaker.com/
 - type: x-blog

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Zencoder
 x-complete: 1
@@ -51,4 +50,3 @@ paths:
       tags:
       - Reports
       - Live
----
